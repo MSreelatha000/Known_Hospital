@@ -1,0 +1,9 @@
+<?php
+    $url='localhost';
+    $username='root';
+    $password='';
+    $con=mysqli_connect($url,$username,$password,"login_db1");
+    if(!$con){
+        die;
+    }
+?>
